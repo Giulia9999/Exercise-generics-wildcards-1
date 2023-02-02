@@ -9,5 +9,9 @@ public class Start {
         individualMarksListLisa.add(8.9);
         individualMarksListLisa.add(7.5);
 
+        List<Integer> projectMarksListJeremy  = new ArrayList<>();
+        projectMarksListJeremy.add(9);
+        projectMarksListJeremy.add(7);
+
     }
 }
