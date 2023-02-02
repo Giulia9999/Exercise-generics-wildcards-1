@@ -17,7 +17,15 @@ public class Student {
     public static double getAverageMark(List<? extends Number> listOfMarks){
         double firstValue = listOfMarks.get(0).doubleValue();
         double secondValue = listOfMarks.get(1).doubleValue();
-        double average = (secondValue + firstValue)/2;
-        return average;
+        return (secondValue + firstValue)/2;
+    }
+
+    @Override
+    public String toString() {
+        return "Student{" +
+                "studentName='" + studentName + '\'' +
+                ", studentSurname='" + studentSurname + '\'' +
+                ", marksAverage=" + marksAverage +
+                '}';
     }
 }
