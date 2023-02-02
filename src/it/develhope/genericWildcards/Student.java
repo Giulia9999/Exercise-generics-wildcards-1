@@ -13,13 +13,6 @@ public class Student {
         this.marksAverage = marksAverage;
     }
 
-
-    public static double getAverageMark(List<? extends Number> listOfMarks){
-        double firstValue = listOfMarks.get(0).doubleValue();
-        double secondValue = listOfMarks.get(1).doubleValue();
-        return (secondValue + firstValue)/2;
-    }
-
     @Override
     public String toString() {
         return "Student{" +
@@ -28,4 +21,12 @@ public class Student {
                 ", marksAverage=" + marksAverage +
                 '}';
     }
+
+    public static double getAverageMark(List<? extends Number> listOfMarks){
+        double firstValue = listOfMarks.get(0).doubleValue();
+        double secondValue = listOfMarks.get(1).doubleValue();
+        return (secondValue + firstValue)/2;
+    }
+
+
 }

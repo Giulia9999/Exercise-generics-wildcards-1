@@ -23,6 +23,9 @@ public class Start {
         listOfStudents.add(new Student("Lisa", "Rossi", lisaAvg));
         listOfStudents.add(new Student("Jeremy", "Yang", jeremyAvg));
 
+        System.out.println(listOfStudents.get(0));
+        System.out.println(listOfStudents.get(1));
+
 
     }
 }
