@@ -19,5 +19,10 @@ public class Start {
         double jeremyAvg = Student.getAverageMark(projectMarksListJeremy);
         System.out.println(jeremyAvg);
 
+        List<Student> listOfStudents = new ArrayList<>();
+        listOfStudents.add(new Student("Lisa", "Rossi", lisaAvg));
+        listOfStudents.add(new Student("Jeremy", "Yang", jeremyAvg));
+
+
     }
 }
