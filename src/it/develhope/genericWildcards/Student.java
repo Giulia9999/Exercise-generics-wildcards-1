@@ -3,9 +3,9 @@ package it.develhope.genericWildcards;
 import java.util.List;
 
 public class Student {
-    private String studentName;
-    private String studentSurname;
-    private double marksAverage;
+    private final String studentName;
+    private final String studentSurname;
+    private final double marksAverage;
 
     public Student(String studentName, String studentSurname, double marksAverage){
         this.studentName = studentName;
