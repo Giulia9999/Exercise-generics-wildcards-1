@@ -13,5 +13,8 @@ public class Start {
         projectMarksListJeremy.add(9);
         projectMarksListJeremy.add(7);
 
+        double lisaAvg = Student.getAverageMark(individualMarksListLisa);
+        System.out.println(lisaAvg);
+
     }
 }
