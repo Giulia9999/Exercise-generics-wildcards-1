@@ -16,5 +16,8 @@ public class Start {
         double lisaAvg = Student.getAverageMark(individualMarksListLisa);
         System.out.println(lisaAvg);
 
+        double jeremyAvg = Student.getAverageMark(projectMarksListJeremy);
+        System.out.println(jeremyAvg);
+
     }
 }
